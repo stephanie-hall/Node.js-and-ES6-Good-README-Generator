@@ -7,13 +7,43 @@ const questions = [
     {
         type: "input",
         name: "projectTitle",
-        message: "Give the project a title."
+        message: "What is the title of this project?"
     },
     
     {
         type: "input",
         name: "description",
-        message: "Describe the project."
+        message: "Describe your project."
+    },
+
+    {
+        type: "input",
+        name: "installation",
+        message: "How did you install your project?"
+    },
+
+    {
+        type: "input",
+        name: "usage",
+        message: "What is your code designed to be used for?"
+    },
+
+    {
+        type: "input",
+        name: "contribution",
+        message: "Who contrubuted to this project?"
+    },
+
+    {
+        type: "input",
+        name: "tests",
+        message: "What tests did you perform?"
+    },
+
+    {
+        type: "input",
+        name: "license",
+        message: "What kind of license should your project have?"
     },
 
     {
@@ -26,37 +56,6 @@ const questions = [
         type: "input",
         name: "email",
         message: "What is your Email?"
-    },
-
-    {
-        type: "input",
-        name: "installation",
-        message: "What did you do?"
-    },
-
-    {
-        type: "input",
-        name: "usage",
-        message: "What is your code designed to be used for?"
-    },
-
-    {
-        type: "input",
-        name: "contribution",
-        message: "Who all contrubuted to this project?"
-    },
-
-    {
-        type: "input",
-        name: "tests",
-        message: "What tests did you perform?"
-    },
-
-    {
-        type: "list",
-        name: "license",
-        message: "What kind of license should your project have?",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
 
     {
