@@ -58,12 +58,6 @@ const questions = [
         message: "What is your Email?"
     },
 
-    {
-        type: "input",
-        name: "questions",
-        message: "What are some questions you have?"
-    }
-
 ];
 
 // function to write README file
@@ -74,7 +68,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(function(data){
-        writeToFile("readMe.md", data);
+        writeToFile("examplereadMe.md", data);
     });
 
 }
