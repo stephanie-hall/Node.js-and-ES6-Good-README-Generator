@@ -1,8 +1,13 @@
 # Node.js and ES6 Good ReadMe Generator
 
-    ## Description
+## Description
+
     This app builds a "good" README file after the user answers a few inquirer prompts. 
-    ## Table of Contents 
+
+    ![readme-generator-demo](assets/HW-9.gif)
+
+## Table of Contents
+
     1. [Installation](#installation) 
     2. [Usage](#usage) 
     3. [Contribution](#contribution) 
