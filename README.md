@@ -4,7 +4,7 @@
 
 This app builds a "good" README file after the user answers a few inquirer prompts.
 
-![readme-generator-demo](assets\HW-9.gif)
+![readme-generator-demo](assets/HW-9.gif)
 
 ## Table of Contents
 
